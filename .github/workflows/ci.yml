@@ -20,3 +20,6 @@ jobs:
 
       - name: Run tests
         run: go test ./...
+
+      - name: Test code coverage
+        run: go test ./... -cover
